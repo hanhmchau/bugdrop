@@ -1,0 +1,28 @@
+{
+	"name": "bugdrop",
+	"title": "Bugdrop",
+	"description": "To drop things.",
+	"version": "0.0.1",
+	"minimumCoreVersion": "0.5.5",
+	"compatibleCoreVersion": "0.7.5",
+	"author": "Arietta",
+
+	"scripts": [],
+	"esmodules": [
+		"main.js",
+		"scripts/**/*.js", 
+		"libs/**/*.js"],
+	"styles": ["dist/bugdrop.css"],
+
+	"languages": [
+		{
+		  "lang": "en",
+		  "name": "English",
+		  "path": "lang/en.json"
+		}
+	  ],
+	
+	"url": "https://github.com/hanhmchau/bugdrop",
+	"manifest": "https://raw.githubusercontent.com/hanhmchau/bugdrop/master/module.json",
+	"download": "https://github.com/hanhmchau/bugdrop/archive/0.0.1.zip"
+}
